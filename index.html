@@ -90,7 +90,7 @@
   </div>
 </div>
 <!-- Second button-->
-  <button onclick="toggleDropdown('myDropdown')" class="dropbtn">Dropdown</button>
+  <button onclick="toggleDropdown('dpdwn2')" class="dropbtn">Resources</button>
   <div id="dpdwn2" class = "dropdown-content">
     <a href="https://umanitoba.ca/science/">Faculty of Science</a>
     <a href="https://umanitoba.ca/science/statistics">Department of Statistics</a>
@@ -100,16 +100,16 @@
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+//function myFunction() {
+  //document.getElementById("myDropdown").classList.toggle("show");
+//}
 
 function toggleDropdown(id) {
   document.querySelectorAll('.dropdown-content').forEach(menu => {
     if (menu.id !== id) menu.classList.remove('show');
   });
 
-
+  
   document.getElementById(id).classList.toggle('show');
 }
 
