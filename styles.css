@@ -143,3 +143,14 @@ footer {
   padding: 10;
 }
 
+
+.div1 {
+    margin: 10px;
+    border-left: 6px solid #0b2041;
+    padding: 20px;
+}
+
+p {
+    padding:10px;
+}
+
