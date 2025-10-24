@@ -110,3 +110,18 @@ header {
   padding: 0%;
 }
 
+/* Footer */
+footer {
+  bottom: 0;
+  background-color:#0b2041; 
+  color:aliceblue; 
+  text-align:center; 
+  background-image: url('./Images/footer2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  font-size:200%; 
+  z-index: 998;
+  padding: 10;
+}
+
