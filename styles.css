@@ -1,26 +1,38 @@
 /* for futur use for multiple pages being formatted the smae way to save time */
 
 /* <!--Link--> */
-    
-    a:link {
+    .a1 {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+    }
+    .a1:hover, .a1:focus {
+        background-color: #2980B9;
+    }
+    .a2:link {
         color: blue;
         background-color: transparent;
         text-decoration: underline;
     }
 
-    a:visited {
+    .a2:visited {
         color: blue;
         background-color: transparent;
         text-decoration: none;
-    }
+    } 
 
-    a:hover {
+    .a2:hover {
         color: red;
         background-color: transparent;
         text-decoration: underline;
     }
 
-    a:active {
+    .a2:active {
         color: yellow;
         background-color: transparent;
         text-decoration: underline;
