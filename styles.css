@@ -11,6 +11,7 @@
         text-decoration: none;
         font-family: Arial, sans-serif;
         z-index: 1;
+        white-space: nowrap;
     }
     .a1:hover, .a1:focus {
         background-color: #2980B9;
@@ -76,7 +77,8 @@
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px;
+  font-size: 16px;
   text-decoration: none;
   display: block;
   font-family: Arial, sans-serif;
@@ -101,7 +103,8 @@ header {
   background-image: url('./Images/banner.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 200px;
+  background-position-y: 5px;
+  background-size: 300px;
   font-size:200%; 
   z-index: 999;
   padding: 0%;
