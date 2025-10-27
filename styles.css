@@ -119,8 +119,8 @@ header {
   background-image: url('./Images/banner.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 5px;
-  background-size: 300px;
+  background-position-y: 1vh;
+  background-size: 18vw;
   width:100%;
   font-size:200%; 
   z-index: 999;
