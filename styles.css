@@ -17,14 +17,14 @@
         background-color: #2980B9;
     }
     .a2:link {
-        color: blue;
+        color: #3498DB;
         background-color: transparent;
         text-decoration: underline;
         z-index: 1;
     }
 
     .a2:visited {
-        color: blue;
+        color: #3498DB;
         background-color: transparent;
         text-decoration: none;
     } 
@@ -180,7 +180,6 @@ p {
 }
 
 .back-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/footer.png");
   background-position-y: 10%;
   background-position-x: center;
   background-repeat: no-repeat;
