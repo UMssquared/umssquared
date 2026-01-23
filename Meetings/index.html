@@ -1,0 +1,143 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMs2's Website</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/png" href="Images/s2.png">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<header style="min-width: 100%;">
+  <br>
+  <br>
+  <br>
+   <div style = "background-color: aliceblue; height: 0.5%; width: 100%;"></div>
+  <div class="buttons-in-row">
+    <!-- First Button -->
+    <div class="dropdown">
+      <button onclick="toggleDropdown('myDropdown')" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#Page2">Meeting Notes and Time</a>
+        <a href="https://umssquared.github.io/Page2/">Picture Album</a>
+        <a href="#Page4">Announcements</a>
+        <a href="#Page5">Stats Fun!</a>
+      </div>
+    </div>
+    <!-- Second button-->
+    <div class="dropdown">
+      <button onclick="toggleDropdown('dpdwn2')" class="dropbtn">Resources</button>
+      <div id="dpdwn2" class="dropdown-content">
+        <a href="https://umanitoba.ca/science/" target="_blank">Faculty of Science </a>
+        <a href="https://umanitoba.ca/science/statistics" target="_blank">Department of Statistics</a>
+        <a href="https://www.umanitobassa.com/" target="_blank">Science Student Association</a>
+      </div>
+    </div>
+
+    <!-- Third Button (Scrolls to bottom of page where contact info will be) -->
+    <a href="#Contacts" class="a1">Contact Us</a>
+
+    <a href="/index.html" class = "a1" style = "margin-left: auto;">Home</a>
+
+  </div>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    //function myFunction() {
+    //document.getElementById("myDropdown").classList.toggle("show");
+    //}
+
+    function toggleDropdown(id) {
+      document.querySelectorAll('.dropdown-content').forEach(menu => {
+        if (menu.id !== id) menu.classList.remove('show');
+      });
+
+
+      document.getElementById(id).classList.toggle('show');
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+  <div style = "background-color: aliceblue; height: 0.5%; width: 100%;"></div>
+</header>
+
+<body style="background-color:#93d3f3; margin: 0; font-family: Arial, sans-serif;">
+
+  <p>This site is currently under construction</p>
+  <p>Welcome to the official website of <abbr title="University of Manitoba Statistics Students">UMs<sup>2</sup></abbr>!
+  </p>
+
+  <p>This is our LinkTree:
+  <p><a
+      href="https://linktr.ee/ums2?fbclid=PAZXh0bgNhZW0CMTEAAafZk4XTjFNQ8O8244JzJIZJdFOq9LNE65E1q_XKm7aMLe3XkBQSueZQ9BZtsQ_aem_FlvnKwT2676CrmEqiCKvdg"
+      target="_blank" class="a2">UMs<sup>2</sup> Linktree</a>
+  <h1 style="text-align:center;">Calendar</h1>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+
+<footer style="overflow: clip;">
+  <h2 id="Contacts" style="padding: 0; margin: 10px;">Contact Us</h2>
+  <div style="justify-content: center; position: relative; display: inline-block; margin-bottom: 10px;">
+    <a href="https://www.instagram.com/umstatisticsclub/" target="_blank" class="a3">Instagram</a>
+    <a href="https://discord.gg/6qaGYQzfBu" target="_blank" class="a3">Community Discord</a>
+    <a href="mailto:UMs2@umanitoba.ca" target="_blank" class="a3">Email Us</a>
+  </div>
+  <br>
+</footer>
+
+
+</html>
